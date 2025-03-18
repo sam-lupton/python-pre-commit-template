@@ -2,7 +2,7 @@
 A template with some key pre-commit settings
 
 Some less strict ruff formatting:
-
+```
 [tool.ruff]
 line-length = 120
 target-version = "py312"
@@ -62,3 +62,4 @@ ignore = [
     "RUF012",
     "S101", # ignore use of assert in unit tests
 ]
+```
