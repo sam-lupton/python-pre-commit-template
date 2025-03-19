@@ -1,11 +1,13 @@
 # python-pre-commit-template
-A template with some key pre-commit settings
+A template with some key [pre-commit](https://pre-commit.com/) settings
 
-Some less strict ruff formatting:
+Based on Python 3.10
+
+Some opinionated relaxing of annoyingly strict ruff formatting, for use in a pyproject.toml:
 ```
 [tool.ruff]
 line-length = 120
-target-version = "py312"
+target-version = "py310"
 select = [
     "ALL", # include all the rules, including new ones
 ]
